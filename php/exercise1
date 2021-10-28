@@ -1,0 +1,21 @@
+Write a brief sample code that connects to a mySQL DB and functions that do the following:
+
+a. Add new record (with SQL statement)
+
+b.	Update existing record (with SQL statement)
+
+c.	delete specific record (with SQL statement)
+
+
+
+Connecting a mySQL DB using php::
+$con = mysqli_connect('localhost', 'dbuser', 'userpass', 'db');
+
+a.Ans INSERT INTO Details(first-name, last-name)
+        VALUES(‘Shivam’, ‘Sahal’); //If you want to insert the values in table ‘Details’.
+
+b.ans. UPDATE Details
+           SET first-name = ‘Aman’; //If you want to update the first name in the table ‘Details’.
+
+c.ans.  DELETE FROM Details WHERE first-name=’Aman’; //It will delete the record where first-name is    
+            ‘Aman’.

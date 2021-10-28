@@ -1,0 +1,15 @@
+c.	What is the output of the following code:
+
+
+
+$a = '1';
+
+$b = &$a;
+
+$b = "2$b";
+
+echo $a.", ".$b;
+
+
+Output:
+21, 21

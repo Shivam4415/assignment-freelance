@@ -1,0 +1,7 @@
+3.	What is the difference between Asynchronous and Non-blocking?
+
+Ans. Asynchronous does not respond immediately, while Non-blocking responds immediately if the data is available 
+and if not that simply returns an error.
+        
+Asynchronous improves the efficiency by doing the task fast as the response might come
+later, meanwhile, can do other tasks, while Non-blocking does not block any execution and if the data is available it retrieves the information quickly.

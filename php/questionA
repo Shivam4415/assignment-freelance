@@ -1,0 +1,5 @@
+a.	What’s the difference between the include() and require() functions?
+
+ANS: 
+You can't selectively load only the pieces you need with require but with import, you can selectively load only the pieces you need, which can save memory.
+Loading is synchronous(step by step) for require on the other hand import can be asynchronous(without waiting for previous import) so it can perform a little better than require.

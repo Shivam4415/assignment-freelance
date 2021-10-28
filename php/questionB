@@ -1,0 +1,3 @@
+b.	How can we get the IP address of the client?
+
+$_SERVER['REMOTE_ADDR']

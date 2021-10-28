@@ -1,0 +1,5 @@
+4.	What are the main Web Socket API events?
+
+
+There are main 4 Web Socket API events ::  
+open, message, error , close

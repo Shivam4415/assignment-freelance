@@ -1,0 +1,6 @@
+4. What is Web Sockets?
+
+Ans :: 
+
+Ans. Web Socket is a communicational protocols used in client-server communication. Web socket is bidirectional , 
+a full-duplex protocol that is used in the same scenario of client-server communication, unlike HTTP it starts from ws:// or wss://.

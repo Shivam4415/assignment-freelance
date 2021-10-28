@@ -1,0 +1,7 @@
+5.	What are the advantages of Web Sockets?
+
+
+Ans. The advantages of Web Sockets are:
+·       Full-duplex asynchronous messaging, in other words, both the client and the server can stream messages to each other independently.
+·       Web Sockets pass through most firewalls without any reconfiguration.
+·       Good security model.

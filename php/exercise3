@@ -1,0 +1,18 @@
+Question :::
+    Assume you have this associative array:
+
+    array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+
+    Write a brief sample code that loops through it and prints the name, age.
+
+
+
+Ans :::
+<?php
+$myAge = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+
+foreach($myAge as $key => $val) {
+        echo $key;
+        echo $val;
+}
+?>

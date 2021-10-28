@@ -1,0 +1,12 @@
+Write a brief sample code that iterates through a database table called users, and fetches all records
+ (use the following field names: client_id, client_name, client_email).
+
+
+Ans ::
+
+ CREATE TABLE users(
+client_id BIGSERIAL NOT NULL PRIMARY KEY,
+client_name VARCHAR(150) NOT NULL,
+client_email VARCHAR(100) NOT NULL
+);
+SELECT *FROM users;

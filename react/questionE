@@ -1,0 +1,6 @@
+e.  What will happen if you use setState in constructor?
+
+Ans::
+If we use setState in constructor we would get error like this :
+Can only update a mounted or mounting component.
+This usually means that we called setState() on an unmounted component which will throw an error because it can only update a mounted component.
